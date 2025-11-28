@@ -72,8 +72,8 @@ export default function ContactForm() {
               <div className="w-16 h-16 bg-rose-50 rounded-full flex items-center justify-center mx-auto mb-6">
                 <CheckCircle className="w-8 h-8 text-rose-500" />
               </div>
-              <h3 className="text-xl md:text-2xl font-semibold tracking-tight leading-[1.3] text-slate-900 mb-3">You're on the list!</h3>
-              <p className="text-slate-500">We'll reach out soon with exclusive early access to Ego. Get ready to level up.</p>
+              <h3 className="text-xl md:text-2xl font-semibold tracking-tight leading-[1.3] text-slate-900 mb-3">You&apos;re on the list!</h3>
+              <p className="text-slate-500">We&apos;ll reach out soon with exclusive early access to Ego. Get ready to level up.</p>
             </div>
           ) : (
             <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-sm border border-slate-100 p-8 md:p-10 space-y-6">
@@ -142,5 +142,5 @@ export default function ContactForm() {
         </motion.div>
       </div>
     </section>
-  </div></div>);
+  );
 }
