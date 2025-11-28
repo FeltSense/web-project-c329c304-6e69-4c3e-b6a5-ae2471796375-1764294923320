@@ -136,5 +136,5 @@ export default function Hero() {
         </motion.div>
       </div>
     </section>
-  </div></span>);
+  );
 }
